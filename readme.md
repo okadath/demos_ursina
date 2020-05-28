@@ -38,6 +38,14 @@ instalar paquetes:
 ```sh
 pipenv install paquete
 ```
+
+para salir del shell de ese ambiente virtual teclear:
+```
+exit
+```
+puede haber mas de un ambiente virtua abierto del mismo proyecto al mismo tiempo, pero pues rara vez lo usaras
+
+
 ### Ursina 
 instalar ursina:
 https://www.ursinaengine.org/
