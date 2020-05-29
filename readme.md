@@ -43,6 +43,11 @@ para salir del shell de ese ambiente virtual teclear:
 ```
 exit
 ```
+
+para volver a entrar a ese ambiente hay que ubicarnos en la carpeta en la que se creo y teclear:
+```sh
+pipenv shell
+```
 puede haber mas de un ambiente virtua abierto del mismo proyecto al mismo tiempo, pero pues rara vez lo usaras
 
 
