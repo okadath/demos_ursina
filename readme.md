@@ -19,6 +19,13 @@ y ya es posible usarlo
 $ python3.6 -V
 Python 3.6.10
 ```
+### pipenv
+verifica que tienes pip en python e instalar pipenv
+```python
+$pip install pipenv 
+```
+eso te permitira instalar ambientes virtuales, si not tienes pip me parece que se instala con apt-get, prueba tambien escribiendo `python3 pip install pipenv ` si no llega a funcionar, en todo caso ahi podria haber errores dependientes de tu maquina que no son graves, puedes googlear para resolverlos
+ya instalado pipenv sera posible acceder al comando pipenv desde cualquier carpeta
 
 crear ambiente virtual con la version que quiero usar:
 ```sh
@@ -49,17 +56,7 @@ para volver a entrar a ese ambiente hay que ubicarnos en la carpeta en la que se
 pipenv shell
 ```
 puede haber mas de un ambiente virtua abierto del mismo proyecto al mismo tiempo, pero pues rara vez lo usaras
-### ejecutar codigo
 
-ya en el ambiente virtual en la carpeta donde este nuestro ambiente creamos un archivo `mi_primer_programa.py` y en el escribimos
-```python
-print("hello world")
-```
-lo guardamos y para ejecutar ese codigo escribimos en la consola del ambiente virtual
-```sh
-$ python mi_primer_programa.py
-```
-y eso hara funcionar el programa
 
 ### Ursina 
 instalar ursina:
