@@ -27,7 +27,7 @@ $pip install pipenv
 eso te permitira instalar ambientes virtuales, si not tienes pip me parece que se instala con apt-get, prueba tambien escribiendo `python3 pip install pipenv ` si no llega a funcionar, en todo caso ahi podria haber errores dependientes de tu maquina que no son graves, puedes googlear para resolverlos
 ya instalado pipenv sera posible acceder al comando pipenv desde cualquier carpeta
 
-crear ambiente virtual con la version que quiero usar:
+me ubico en la carpeta en la que trabajare y crear un ambiente virtual con la version que quiero usar:
 ```sh
 pipenv shell --python=python3.6
 ```
