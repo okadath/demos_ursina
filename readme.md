@@ -49,7 +49,17 @@ para volver a entrar a ese ambiente hay que ubicarnos en la carpeta en la que se
 pipenv shell
 ```
 puede haber mas de un ambiente virtua abierto del mismo proyecto al mismo tiempo, pero pues rara vez lo usaras
+### ejecutar codigo
 
+ya en el ambiente virtual en la carpeta donde este nuestro ambiente creamos un archivo `mi_primer_programa.py` y en el escribimos
+```python
+print("hello world")
+```
+lo guardamos y para ejecutar ese codigo escribimos en la consola del ambiente virtual
+```sh
+$ python mi_primer_programa.py
+```
+y eso hara funcionar el programa
 
 ### Ursina 
 instalar ursina:
